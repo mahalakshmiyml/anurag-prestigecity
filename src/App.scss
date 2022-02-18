@@ -22,9 +22,9 @@ $black-color: #000;
 $tertiary-color: #9D9E9E;
 $dark-color: #001524;
 
-p {
-  text-align: justify !important;
-}
+// p {
+//   text-align: justify !important;
+// }
 
 #SRLLightbox {
   .SRLDownloadButton {
@@ -37,13 +37,37 @@ p {
   .nav-link {
     padding-left: 30px;
     padding-right: 30px;
-    font-weight: 700;
+    font-weight: 600;
     color: $primary-color;
     text-transform: uppercase;
+    border-right: 1px solid $secondary-color;
     &:hover {
       color: $secondary-color;
     }
+    &:last-child{
+      border-right: 0px;
+    }
   }
+  .nav-item{
+    border-right: 1px solid $secondary-color;
+  }
+  .menu-area{
+    position: static;
+  }
+  .mega-area{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    right: 0;
+    padding: 15px;
+  }
+  .dropdown-menu{
+    left: 10%;
+  }
+  .col-md-3{
+    width: 20%;
+  }
+  
 }
 
 

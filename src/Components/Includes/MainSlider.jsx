@@ -1,12 +1,14 @@
 import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Image, Row } from "react-bootstrap";
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/src/owl.carousel.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
 import Image1 from "../../images/slider/image-1.png";
 import Image2 from "../../images/slider/image-2.png";
 import Image3 from "../../images/slider/image-3.png";
-import Logo from "../../images/logo-1.png";
+import Image4 from "../../images/slider/image-4.png";
+import Image5 from "../../images/projects/meridian/slider/image-4.png";
+// import Logo from "../../images/logo-1.png";
 
 const MainSlider = () => {
   const associations = [
@@ -23,6 +25,16 @@ const MainSlider = () => {
     {
       id: 3,
       ImageUrl: Image3,
+      alt: "",
+    },
+    {
+      id: 4,
+      ImageUrl: Image4,
+      alt: "",
+    },
+    {
+      id: 5,
+      ImageUrl: Image5,
       alt: "",
     },
   ];
@@ -68,7 +80,7 @@ const MainSlider = () => {
         ))}
       </OwlCarousel>
 
-      <div className="bg-light position-relative rounded" id="custom-content">
+      {/* <div className="bg-light position-relative rounded" id="custom-content">
         <Container className="bg-white shadow p-3 position-absolute top-50 start-50 translate-middle">
           <Row className="justify-content-center">
             <Col
@@ -88,14 +100,14 @@ const MainSlider = () => {
               <Row className="">
                 <Col md={6} className="">
                   <div className="m-1 text-center text-md-start">
-                    <h2>Sterling Villa Grande</h2>
+                    <h2>Prestige City Projects</h2>
                     <p className="m-0 fw-bold text-center text-md-start">
                       {" "}
                       3 & 4 BHK Villas Starts @ 3.5 Cr* Onwards
                     </p>
                     <p className="text-center text-md-start">
                       {" "}
-                      Whitefield - Hoskote Rd, Bangalore
+                      Sarjapur Rd, Bangalore
                     </p>
                   </div>
                 </Col>
@@ -115,7 +127,7 @@ const MainSlider = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
     </div>
   );
 };

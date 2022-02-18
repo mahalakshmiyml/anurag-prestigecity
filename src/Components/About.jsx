@@ -1,13 +1,13 @@
 import React from "react";
-import {  Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 // import aboutImage from "../images/slider/image-2.png"
 // import ContactModal from "./Includes/ContactModal";
 
 const About = () => {
-//   const [show, setShow] = useState(false);
+  //   const [show, setShow] = useState(false);
 
-//   const handleClose = () => setShow(false);
-//   const handleShow = () => setShow(true);
+  //   const handleClose = () => setShow(false);
+  //   const handleShow = () => setShow(true);
 
   // useEffect(() => {
   //   setTimeout(function () {
@@ -21,9 +21,22 @@ const About = () => {
         <Row>
           <Col md={12} className="align-self-center">
             <div className="">
-              <h2 className="py-2 text-primary text-uppercase">Aboout Developer</h2>
-            <p>Serving you since 1983......</p>
-            <p>Sterling Developers has been one of the pioneers of the real estate industry in Bengaluru. Founded in 1983, we have been changing the landscape of Bengaluru for over three decades. Our dedication to providing not just a house but a home to all our customers has earned us the reputation of a trusted developer that focuses on design and quality in all projects. Sterling Developers was founded by Ramani Sastri – Chairman and Managing Director, whose farsightedness combined with the diligence of Shankar Sastri – Joint Managing Director has shaped our reputation for excellence in creating value for our customers. Under their leadership, we have built some of the best properties in Bengaluru, including premium apartments and exquisite villas.</p>
+              <h2 className="py-2 text-primary text-uppercase text-center">
+                About Developer
+              </h2>
+              <p className="justify-content text-center">
+                Over the last decade, the Prestige Group has firmly established
+                itself as one of the leading and most successful developers of
+                real estate in India by imprinting its indelible mark across all
+                asset classes. Founded in 1986, the group’s turnover is today in
+                excess of Rs 3518 Cr (for FY 15); a leap that has been inspired
+                by CMD Irfan Razack and marshaled by his brothers Rezwan Razack
+                and Noaman Razack. As of 30th June 2020, the group has completed
+                247 projects covering 134 million sft, and currently has 45
+                ongoing projects covering over 53 million sft, 56 mn sft of
+                upcoming projects, and holds a land bank of 262 acres with
+                potential developable area of 27 mn sft.
+              </p>
             </div>
           </Col>
         </Row>

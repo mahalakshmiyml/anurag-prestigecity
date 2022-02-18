@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Row, Col, Container, Image } from "react-bootstrap";
+import { Button, Row, Col, Container, } from "react-bootstrap";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as Yup from "yup";
@@ -69,7 +69,7 @@ const Contact = () => {
                     <div className="mb-3">
                       <a
                         href="tel:08095999000"
-                        className="btn btn-primary form-control fw-bold py-2"
+                        className="btn btn-dark form-control fw-bold py-2"
                       >
                         <FontAwesomeIcon
                           icon="fa-solid fa-phone-volume"
@@ -141,7 +141,7 @@ const Contact = () => {
                   <Col md={12}>
                     <div className="">
                       <Button
-                        className="btn btn-success text-white fw-bold form-control"
+                        className="btn btn-warning text-white fw-bold form-control"
                         type="submit"
                       >
                         Submit
