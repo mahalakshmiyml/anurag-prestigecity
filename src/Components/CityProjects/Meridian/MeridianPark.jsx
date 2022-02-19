@@ -96,7 +96,7 @@ const MeridianPark = () => {
                 <Row>
                   <Col md={12}>
                     <h2 className="py-2 text-center text-primary">
-                      About The MeridianPark @ Prestige City
+                      About The Meridian Park @ Prestige City
                     </h2>
                     <p>
                       Meridian Park is a community of spacious and well-planned

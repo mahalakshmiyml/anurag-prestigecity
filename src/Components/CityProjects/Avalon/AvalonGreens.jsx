@@ -5,9 +5,9 @@ import Info from '../../Includes/Info'
 import AspenMasterPlan from './AspenMasterPlan'
 import AspenPrice from './AspenPrice'
 import AspenSlider from './AspenSlider'
-import OtherCityProjects1 from './OtherCityProjects1'
+import OtherCityProjects1 from './OtherCityProjects2'
 
-const AspenGreens = () => {
+const AvalonGreens = () => {
   return (
     <div>
     <AspenSlider />
@@ -151,4 +151,4 @@ const AspenGreens = () => {
   )
 }
 
-export default AspenGreens
+export default AvalonGreens

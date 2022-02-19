@@ -8,14 +8,13 @@ import {
   Col,
   NavDropdown,
 } from "react-bootstrap";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Logo from "../../images/logo-1.png";
 import image1 from "../../images/projects/meridian/slider/image-3.png";
 import image2 from "../../images/slider/eden-park/eden-park-1.png";
 import image3 from "../../images/slider/avalon-park/avalon-park-2.png";
 import image4 from "../../images/slider/aspen-greens/aspen-greens-3.png";
 import image5 from "../../images/slider/the-great-acres/the-great-acres-4.png";
-
 
 const TopHeader = () => {
   return (
@@ -31,11 +30,7 @@ const TopHeader = () => {
             </Col>
             <Col md={4} xs={5} className="align-self-center">
               <div className="text-center">
-                <a
-                  className="btn btn-dark"
-                  data-bs-toggle="modal"
-                  data-bs-target="#modal"
-                >
+                <a className="btn btn-dark" data-bs-toggle="" data-bs-target="">
                   <i className="fa fa-spinner fa-flip fa-download"></i> Brochure
                 </a>
               </div>
@@ -80,15 +75,24 @@ const TopHeader = () => {
                 title="The Prestige City Projects"
                 id="collasible-nav-dropdown"
               >
-                <NavDropdown.Item as={Link} to="/city-projects/meridian/meridian-park">
+                <NavDropdown.Item
+                  as={Link}
+                  to="/city-projects/meridian/meridian-park"
+                >
                   Meridian Park
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/city-projects/avalon/avalon-park">
+                <NavDropdown.Item
+                  as={Link}
+                  to="/city-projects/avalon/avalon-park"
+                >
                   Avalon Park
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/city-projects/aspen/aspen-greens">
+                <NavDropdown.Item
+                  as={Link}
+                  to="/city-projects/aspen/aspen-greens"
+                >
                   Aspen Greens
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
@@ -96,7 +100,10 @@ const TopHeader = () => {
                   Eden Park
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/city-projects/the-great/great-acres">
+                <NavDropdown.Item
+                  as={Link}
+                  to="/city-projects/the-great/great-acres"
+                >
                   Great Acres
                 </NavDropdown.Item>
               </NavDropdown>
@@ -214,12 +221,12 @@ const TopHeader = () => {
                       >
                         Great Acres
                       </NavDropdown.Item>
-                      <div className="position-relative">
-                        <a
-                          className="text-decoration-none"
-                          as={Link}
-                          to="/city-projects/the-great/great-acres"
-                        >
+                      <a
+                        className="text-decoration-none"
+                        as={Link}
+                        to="/city-projects/the-great/great-acres"
+                      >
+                        <div className="position-relative">
                           <Image className="img-fluid" alt="" src={image5} />
                           <span className="position-absolute top-0 end-0 badge rounded-pill bg-danger m-1">
                             Coming Soon
@@ -227,8 +234,8 @@ const TopHeader = () => {
                           <p className="text-dark m-0 py-2 text-primary text-center">
                             Plots
                           </p>
-                        </a>
-                      </div>
+                        </div>
+                      </a>
                     </Col>
                   </Row>
                 </Container>

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Tabs, Tab } from "react-bootstrap";
-import AspenAllImages from "./AspenAllImages";
-import AspenFourBhk from "./AspenFourBhk";
-import AspenMasterPlanImages from "./AspenMasterPlanImages";
-import AspenThreeBhk from "./AspenThreeBhk";
+import AvalonAllImages from "./AvalonAllImages";
+import AvalonFourBhk from "./AvalonFourBhk";
+import AvalonMasterPlanImages from "./AvalonMasterPlanImages";
+import AvalonThreeBhk from "./AvalonThreeBhk";
 
-const AspenMasterPlan = () => {
+const AvalonMasterPlan = () => {
     const [key, setKey] = useState("all")
 
   return (
@@ -24,16 +24,16 @@ const AspenMasterPlan = () => {
               className="mb-3 text-dark"
             >
               <Tab eventKey="all" title="All" className="text-dark">
-                <AspenAllImages />
+                <AvalonAllImages />
               </Tab>
               <Tab eventKey="matster-plan" title="Master Plan" className="text-dark">
-                <AspenMasterPlanImages />
+                <AvalonMasterPlanImages />
               </Tab>
               <Tab eventKey="three-bhk" title="3BHK">
-                {<AspenThreeBhk />}
+                <AvalonThreeBhk />
               </Tab>
               <Tab eventKey="four-bhk" title="4BHK">
-                {<AspenFourBhk/>}
+                <AvalonFourBhk/>
               </Tab>
             </Tabs>
           </Col>
@@ -44,4 +44,4 @@ const AspenMasterPlan = () => {
   );
 };
 
-export default AspenMasterPlan;
+export default AvalonMasterPlan;

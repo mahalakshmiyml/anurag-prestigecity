@@ -7,7 +7,7 @@ import Image2 from "../../../images/projects/meridian/numbering-plan.png";
 const MeridianMasterPlanImages = () => {
   const images = [
       { id: 1, imgName: Image1, alt: "", tag: "Master Plan" },
-      { id: 2, imgName: Image2, alt: "", tag: "Numbering-Plan Plan" }];
+      { id: 2, imgName: Image2, alt: "", tag: "Numbering Plan" }];
   return (
     <div>
       <Container>

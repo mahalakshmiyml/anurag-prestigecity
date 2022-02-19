@@ -4,7 +4,7 @@ import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import Image1 from "../../../images/projects/aspen-greens/masterplan.png";
 import Image2 from "../../../images/projects/aspen-greens/numbering-plan.png";
 
-const AspenMasterPlanImages = () => {
+const AvalonMasterPlanImages = () => {
   const images = [
       { id: 1, imgName: Image1, alt: "", tag: "Master Plan" },
       { id: 2, imgName: Image2, alt: "", tag: "Numbering Plan" }];
@@ -36,4 +36,4 @@ const AspenMasterPlanImages = () => {
   );
 };
 
-export default AspenMasterPlanImages;
+export default AvalonMasterPlanImages;
