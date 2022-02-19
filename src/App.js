@@ -9,10 +9,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./Components/Includes/Footer";
 import Home from "./Components/Home";
 import MeridianPark from "./Components/CityProjects/Meridian/MeridianPark";
-import EdenPark from "./Components/CityProjects/EdenPark";
-import AvalonPark from "./Components/CityProjects/AvalonPark";
-import AspenGreens from "./Components/CityProjects/AspenGreens";
-import GreatAcres from "./Components/CityProjects/GreatAcres";
+import EdenPark from "./Components/CityProjects/Eden/EdenPark";
+import AvalonPark from "./Components/CityProjects/Avalon/AvalonPark";
+import AspenGreens from "./Components/CityProjects/Aspen/AspenGreens";
+import GreatAcres from "./Components/CityProjects/TheGreat/GreatAcres";
 import About from "./Components/About";
 // import Location from "./Components/Location";
 // import Pricing from "./Components/Pricing";
@@ -33,10 +33,10 @@ function App() {
       <Routes>
       <Route path="/" index element={<Home />}></Route>
       <Route path="/city-projects/meridian/meridian-park" element={<MeridianPark />}></Route>
-      <Route path="/city-projects/eden-park" element={<EdenPark />}></Route>
-      <Route path="/city-projects/avalon-park" element={<AvalonPark />}></Route>
-      <Route path="/city-projects/aspen-greens" element={<AspenGreens />}></Route>
-      <Route path="/city-projects/great-acres" element={<GreatAcres />}></Route>
+      <Route path="/city-projects/eden/eden-park" element={<EdenPark />}></Route>
+      <Route path="/city-projects/avalon/avalon-park" element={<AvalonPark />}></Route>
+      <Route path="/city-projects/aspen/aspen-greens" element={<AspenGreens />}></Route>
+      <Route path="/city-projects/the-great/great-acres" element={<GreatAcres />}></Route>
 
 
  

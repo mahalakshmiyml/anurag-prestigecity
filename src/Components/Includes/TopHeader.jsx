@@ -80,23 +80,23 @@ const TopHeader = () => {
                 title="The Prestige City Projects"
                 id="collasible-nav-dropdown"
               >
-                <NavDropdown.Item as={Link} to="/city-projects/meridian-park">
+                <NavDropdown.Item as={Link} to="/city-projects/meridian/meridian-park">
                   Meridian Park
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/city-projects/avalon-park">
+                <NavDropdown.Item as={Link} to="/city-projects/avalon/avalon-park">
                   Avalon Park
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/city-projects/aspen-greens">
+                <NavDropdown.Item as={Link} to="/city-projects/aspen/aspen-greens">
                   Aspen Greens
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/city-projects/eden-park">
+                <NavDropdown.Item as={Link} to="/city-projects/eden/eden-park">
                   Eden Park
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/city-projects/great-acres">
+                <NavDropdown.Item as={Link} to="/city-projects/the-great/great-acres">
                   Great Acres
                 </NavDropdown.Item>
               </NavDropdown>
@@ -135,7 +135,7 @@ const TopHeader = () => {
                     <Col md={3}>
                       <NavDropdown.Item
                         as={Link}
-                        to="/city-projects/eden-park"
+                        to="/city-projects/eden/eden-park"
                         className="fs-5 fw-bold text-primary"
                       >
                         Eden Park
@@ -144,7 +144,7 @@ const TopHeader = () => {
                         <a
                           className="text-decoration-none"
                           as={Link}
-                          to="/city-projects/eden-park"
+                          to="/city-projects/eden/eden-park"
                         >
                           <Image className="img-fluid" alt="" src={image2} />
                           <span className="position-absolute top-0 end-0 badge rounded-pill bg-danger m-1">
@@ -160,7 +160,7 @@ const TopHeader = () => {
                     <Col md={3}>
                       <NavDropdown.Item
                         as={Link}
-                        to="/city-projects/avalon-park"
+                        to="/city-projects/avalon/avalon-park"
                         className="fs-5 fw-bold text-primary"
                       >
                         Avalon Park
@@ -169,7 +169,7 @@ const TopHeader = () => {
                         <a
                           className="text-decoration-none"
                           as={Link}
-                          to="/city-projects/avalon-park"
+                          to="/city-projects/avalon/avalon-park"
                         >
                           <Image className="img-fluid" alt="" src={image3} />
                           <span className="position-absolute top-0 end-0 badge rounded-pill bg-danger m-1">
@@ -185,7 +185,7 @@ const TopHeader = () => {
                     <Col md={3}>
                       <NavDropdown.Item
                         as={Link}
-                        to="/city-projects/aspen-greens"
+                        to="/city-projects/aspen/aspen-greens"
                         className="fs-5 fw-bold text-primary"
                       >
                         Aspen Greens
@@ -194,7 +194,7 @@ const TopHeader = () => {
                         <a
                           className="text-decoration-none"
                           as={Link}
-                          to="/city-projects/aspen-greens"
+                          to="/city-projects/aspen/aspen-greens"
                         >
                           <Image className="img-fluid" alt="" src={image4} />
                           <span className="position-absolute top-0 end-0 badge rounded-pill bg-danger m-1">
@@ -209,7 +209,7 @@ const TopHeader = () => {
 
                     <Col md={3}>
                       <NavDropdown.Item
-                        href="/city-projects/great-acres"
+                        href="/city-projects/the-great/-acres"
                         className="fs-5 fw-bold text-primary"
                       >
                         Great Acres
@@ -218,7 +218,7 @@ const TopHeader = () => {
                         <a
                           className="text-decoration-none"
                           as={Link}
-                          to="/city-projects/great-acres"
+                          to="/city-projects/the-great/great-acres"
                         >
                           <Image className="img-fluid" alt="" src={image5} />
                           <span className="position-absolute top-0 end-0 badge rounded-pill bg-danger m-1">
