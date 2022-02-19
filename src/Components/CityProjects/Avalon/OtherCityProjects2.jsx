@@ -21,7 +21,7 @@ const OtherCityProjects2 = () => {
     location:"Sarjapur Road",
     description: "3 Bed Appartments",
     imageurl: image1,
-    link: "/city-projects/meridian-park",
+    link: "/city-projects/meridian/meridian-park",
     status:"Coming Soon"
 
 },
@@ -30,7 +30,7 @@ const OtherCityProjects2 = () => {
     location:"Sarjapur Road",
     description: "1/2 Bed Appartments",
     imageurl: image2,
-    link: "/city-projects/eden-park",
+    link: "/city-projects/eden/eden-park",
     status:"New Launch"
 
 },
@@ -39,7 +39,7 @@ const OtherCityProjects2 = () => {
     location:"Sarjapur Road",
     description: "4BHK Villas ",
     imageurl: image4,
-    link: "/city-projects/aspen-greens",
+    link: "/city-projects/aspen/aspen-greens",
     status:"New Launch"
 
 },
@@ -48,7 +48,7 @@ const OtherCityProjects2 = () => {
     location:"Sarjapur Road",
     description: "Plots",
     imageurl: image5,
-    link: "/city-projects/meridian/meridian-park",
+    link: "/city-projects/the-great/great-acres",
     status:"On Going"
 
 },
@@ -59,9 +59,9 @@ const OtherCityProjects2 = () => {
     <div className="bg-light">
       <Container className="pb-md-4 pt-md-3">
         <Row className="justify-content-center g-3">
-            <h2 className="py-3 text-primary text-center">Prestige City Projects</h2> 
+            <h2 className="py-3 text-primary text-center">Other Prestige City Projects</h2> 
           {projects.map((project) => (
-            <Col md={6} key={project.id}>
+            <Col md={3} key={project.id}>
               <Card>
                 <Card.Img variant="top" src={project.imageurl} className="position-relative" />
                   <h6 class="position-absolute end-0 bg-danger m-3 rounded-pill text-white p-2">{project.status}</h6>

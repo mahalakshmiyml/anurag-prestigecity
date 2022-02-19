@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, Col,  Row, Table } from "react-bootstrap";
 import ContactModal from "../../Includes/ContactModal";
 
-const AvalonPrice = () => {
+const GreatAcresPrice = () => {
 
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -72,4 +72,4 @@ const AvalonPrice = () => {
   );
 };
 
-export default AvalonPrice;
+export default GreatAcresPrice;

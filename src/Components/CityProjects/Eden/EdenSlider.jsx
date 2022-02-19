@@ -3,13 +3,13 @@ import { Container, Col, Image, Row, Button } from "react-bootstrap";
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/src/owl.carousel.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
-import Image1 from "../../../images/slider/avalon-park/avalon-park-1.png";
-import Image2 from "../../../images/slider/avalon-park/avalon-park-2.png";
-import Logo from "../../../images/projects/avalon-park-@-the-prestige-city-logo.png"
+import Image1 from "../../../images/slider/eden-park/eden-park-1.png";
+import Image2 from "../../../images/slider/eden-park/eden-park-2.png";
+import Logo from "../../../images/projects/eden-park-@-the-prestige-city-logo.png"
 import ContactModal from "../../Includes/ContactModal";
 
 
-const AvalonSlider = () => {
+const EdenSlider = () => {
 
     const [show, setShow] = useState(false);
 
@@ -92,7 +92,7 @@ const AvalonSlider = () => {
                   <p className="m-0 fw-bold text-center text-md-start">
                     {" "}
                     <p>Sarjapur Main Road, Bangalore</p>
-                    <p>79.99* Lac Onwards</p>
+                    <p>39.99* Lac Onwards</p>
                   </p>
                 </div>
               </Col>
@@ -122,4 +122,4 @@ const AvalonSlider = () => {
   )
 }
 
-export default AvalonSlider
+export default EdenSlider

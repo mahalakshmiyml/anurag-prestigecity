@@ -216,7 +216,7 @@ const TopHeader = () => {
 
                     <Col md={3}>
                       <NavDropdown.Item
-                        href="/city-projects/the-great/-acres"
+                        href="/city-projects/the-great/great-acres"
                         className="fs-5 fw-bold text-primary"
                       >
                         Great Acres

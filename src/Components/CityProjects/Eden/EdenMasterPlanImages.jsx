@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
-import Image1 from "../../../images/projects/avalon-park/masterplan.png";
-import Image2 from "../../../images/projects/avalon-park/numbering-plan.png";
+import Image1 from "../../../images/projects/eden-park/masterplan.png";
+import Image2 from "../../../images/projects/eden-park/numbering-plan.png";
 
-const AvalonMasterPlanImages = () => {
+const EdenMasterPlanImages = () => {
   const images = [
       { id: 1, imgName: Image1, alt: "", tag: "Master Plan" },
       { id: 2, imgName: Image2, alt: "", tag: "Numbering Plan" }];
@@ -36,4 +36,4 @@ const AvalonMasterPlanImages = () => {
   );
 };
 
-export default AvalonMasterPlanImages;
+export default EdenMasterPlanImages;

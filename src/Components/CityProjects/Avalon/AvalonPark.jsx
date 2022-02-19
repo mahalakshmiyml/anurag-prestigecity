@@ -3,6 +3,7 @@ import { Col, Container, Row, Table } from 'react-bootstrap'
 import Contact from '../../Contact'
 import Info from '../../Includes/Info'
 import AvalonMasterPlan from './AvalonMasterPlan'
+import AvalonPrice from './AvalonPrice'
 import AvalonSlider from './AvalonSlider'
 import OtherCityProjects2 from './OtherCityProjects2'
 
@@ -25,19 +26,15 @@ const AvalonPark = () => {
                     <tbody>
                       <tr>
                         <th>RERA No</th>
-                        <td>PR/211007/004346</td>
+                        <td>PR/210928/004316</td>
                       </tr>
                       <tr>
                         <th>Development Size</th>
-                        <td>20.3 Acres</td>
+                        <td>6.8 Acres</td>
                       </tr>
                       <tr>
                         <th>Total No. of Units</th>
-                        <td>2900 (including Phase - 1, 2 &3)</td>
-                      </tr>
-                      <tr>
-                        <th>No. of Units in Phase 1</th>
-                        <td>149</td>
+                        <td>950 units</td>
                       </tr>
                       <tr>
                         <th>No. of Rooms</th>
@@ -54,22 +51,16 @@ const AvalonPark = () => {
               <Row>
                 <Col md={12}>
                   <h2 className="py-2 text-center text-primary">
-                    About The Aspen Greens @ Prestige City
+                    About Avalon Park @ Prestige City
                   </h2>
                   <p>
-                  Your villa at Aspen Greens confers a clear mark of distinction on your address.
+                  Your home at Avalon Park is a well designed haven that is abundant with natural light and ventilation, thanks to imaginative and intelligent planning.
                   </p>
                   <p>
-                  It comes to you with its own private garden area, and covered space to park two cars comfortably.
+                  Open the windows and allow Mother Nature herself to keep your home cool and ventilated. The savings on power aside, there’s nothing quite like breathing in fresh air, is there? What’s more, look out of any window and you will see a tapestry of green pleasantness.
                   </p>
                   <p>
-                  Planned after the principles of Spanish architecture, its layout enables you to entertain with aplomb and be the perfect host while safeguarding your privacy. For instance, its entrance is positioned so that your guests can access your living area and its accompanying lawn directly, without having to traverse your family’s personal spaces.
-                  </p>
-                  <p>
-                  Seamlessly skirted by grassy paths, it blurs the line between the outdoors and in, enveloping you in nature’s warm embrace.
-                  </p>
-                  <p>
-                  With four spacious bedrooms as well as a maid’s room, large balcony decks opening from the bedrooms, a central family area, and a commodious kitchen, it promises you a life that is convenient and comfortable even as it is elegant and classy.
+                  Finally, you have a choice of sizes and room configurations to perfectly suit your need across three-bed and four-bed homes.
                   </p>
                 </Col>
               </Row>
@@ -128,7 +119,7 @@ const AvalonPark = () => {
           <div className="py-3 py-md-5" id="pricing">
             <Container>
               <Row>
-                <AvalonPark />
+                <AvalonPrice />
                 <Info />
               </Row>
             </Container>

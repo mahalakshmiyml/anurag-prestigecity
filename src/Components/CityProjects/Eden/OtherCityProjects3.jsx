@@ -8,14 +8,13 @@ import {
   
 } from "react-bootstrap";
 import { Link } from 'react-router-dom';
-import image1 from "../images/projects/meridian/slider/image-3.png"
-import image2 from "../images/slider/eden-park/eden-park-2.png"
-import image3 from "../images/slider/avalon-park/avalon-park-2.png"
-import image4 from "../images/slider/aspen-greens/aspen-greens-1.png"
-import image5 from "../images/slider/the-great-acres/the-great-acres-1.png"
+import image1 from "../../../images/projects/meridian/slider/image-3.png"
+import image3 from "../../../images/slider/avalon-park/avalon-park-2.png"
+import image4 from "../../../images/slider/aspen-greens/aspen-greens-1.png"
+import image5 from "../../../images/slider/the-great-acres/the-great-acres-1.png"
 
 
-const PrestigeCityProjects = () => {
+const OtherCityProjects3 = () => {
   const projects = [{ 
     id: 1, 
     title: "Meridian Park",
@@ -27,15 +26,6 @@ const PrestigeCityProjects = () => {
 
 },
 { id: 2, 
-    title: "Eden Park",
-    location:"Sarjapur Road",
-    description: "1/2 Bed Appartments",
-    imageurl: image2,
-    link: "/city-projects/eden/eden-park",
-    status:"New Launch"
-
-},
-{ id: 3, 
     title: "Avalon Park",
     location:"Sarjapur Road",
     description: "3/4 BHK Appartments",
@@ -44,7 +34,7 @@ const PrestigeCityProjects = () => {
     status:"Sold Out"
 
 },
-{ id: 4, 
+{ id: 3, 
     title: "Aspen Greens",
     location:"Sarjapur Road",
     description: "4BHK Villas ",
@@ -53,12 +43,12 @@ const PrestigeCityProjects = () => {
     status:"New Launch"
 
 },
-{ id: 5, 
+{ id: 4, 
     title: "The Great Acres",
     location:"Sarjapur Road",
     description: "Plots",
     imageurl: image5,
-    link: "/city-projects/the-great/great-acres",
+    link: "/city-projects/meridian/meridian-park",
     status:"On Going"
 
 },
@@ -69,9 +59,9 @@ const PrestigeCityProjects = () => {
     <div className="bg-light">
       <Container className="pb-md-4 pt-md-3">
         <Row className="justify-content-center g-3">
-            <h2 className="py-3 text-primary text-center">Prestige City Projects</h2> 
+            <h2 className="py-3 text-primary text-center">Other Prestige City Projects</h2> 
           {projects.map((project) => (
-            <Col md={6} key={project.id}>
+            <Col md={3} key={project.id}>
               <Card>
                 <Card.Img variant="top" src={project.imageurl} className="position-relative" />
                   <h6 class="position-absolute end-0 bg-danger m-3 rounded-pill text-white p-2">{project.status}</h6>
@@ -100,4 +90,4 @@ const PrestigeCityProjects = () => {
   );
 };
 
-export default PrestigeCityProjects;
+export default OtherCityProjects3;

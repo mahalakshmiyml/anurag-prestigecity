@@ -8,14 +8,13 @@ import {
   
 } from "react-bootstrap";
 import { Link } from 'react-router-dom';
-import image1 from "../images/projects/meridian/slider/image-3.png"
-import image2 from "../images/slider/eden-park/eden-park-2.png"
-import image3 from "../images/slider/avalon-park/avalon-park-2.png"
-import image4 from "../images/slider/aspen-greens/aspen-greens-1.png"
-import image5 from "../images/slider/the-great-acres/the-great-acres-1.png"
+import image1 from "../../../images/projects/meridian/slider/image-3.png"
+import image2 from "../../../images/slider/eden-park/eden-park-2.png"
+import image3 from "../../../images/slider/avalon-park/avalon-park-2.png"
+import image4 from "../../../images/slider/aspen-greens/aspen-greens-1.png"
 
 
-const PrestigeCityProjects = () => {
+const OtherCityProjects4 = () => {
   const projects = [{ 
     id: 1, 
     title: "Meridian Park",
@@ -53,15 +52,6 @@ const PrestigeCityProjects = () => {
     status:"New Launch"
 
 },
-{ id: 5, 
-    title: "The Great Acres",
-    location:"Sarjapur Road",
-    description: "Plots",
-    imageurl: image5,
-    link: "/city-projects/the-great/great-acres",
-    status:"On Going"
-
-},
 
 
 ];
@@ -71,7 +61,7 @@ const PrestigeCityProjects = () => {
         <Row className="justify-content-center g-3">
             <h2 className="py-3 text-primary text-center">Prestige City Projects</h2> 
           {projects.map((project) => (
-            <Col md={6} key={project.id}>
+            <Col md={3} key={project.id}>
               <Card>
                 <Card.Img variant="top" src={project.imageurl} className="position-relative" />
                   <h6 class="position-absolute end-0 bg-danger m-3 rounded-pill text-white p-2">{project.status}</h6>
@@ -100,4 +90,4 @@ const PrestigeCityProjects = () => {
   );
 };
 
-export default PrestigeCityProjects;
+export default OtherCityProjects4;

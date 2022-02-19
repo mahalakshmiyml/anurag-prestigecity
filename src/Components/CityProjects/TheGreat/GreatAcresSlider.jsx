@@ -3,13 +3,15 @@ import { Container, Col, Image, Row, Button } from "react-bootstrap";
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/src/owl.carousel.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
-import Image1 from "../../../images/slider/avalon-park/avalon-park-1.png";
-import Image2 from "../../../images/slider/avalon-park/avalon-park-2.png";
-import Logo from "../../../images/projects/avalon-park-@-the-prestige-city-logo.png"
+import Image1 from "../../../images/slider/the-great-acres/the-great-acres-1.png";
+import Image2 from "../../../images/slider/the-great-acres/the-great-acres-2.png";
+import Image3 from "../../../images/slider/the-great-acres/the-great-acres-3.png";
+import Image4 from "../../../images/slider/the-great-acres/the-great-acres-4.png";
+import Logo from "../../../images/projects/the-great-acres-@-the-prestige-city-logo.png"
 import ContactModal from "../../Includes/ContactModal";
 
 
-const AvalonSlider = () => {
+const GreatAcresSlider = () => {
 
     const [show, setShow] = useState(false);
 
@@ -25,6 +27,16 @@ const AvalonSlider = () => {
     {
       id: 2,
       ImageUrl: Image2,
+      alt: "",
+    },
+    {
+      id: 3,
+      ImageUrl: Image3,
+      alt: "",
+    },
+    {
+      id: 4,
+      ImageUrl: Image4,
       alt: "",
     },
   ];
@@ -122,4 +134,4 @@ const AvalonSlider = () => {
   )
 }
 
-export default AvalonSlider
+export default GreatAcresSlider

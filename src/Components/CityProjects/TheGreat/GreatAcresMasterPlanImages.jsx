@@ -1,13 +1,18 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
-import Image1 from "../../../images/projects/avalon-park/masterplan.png";
-import Image2 from "../../../images/projects/avalon-park/numbering-plan.png";
+import Image1 from "../../../images/floor-plans/great-acres.png";
+import Image2 from "../../../images/floor-plans/master-plan-01.png";
+import Image3 from "../../../images/floor-plans/master-plan-02.png";
+import Image4 from "../../../images/floor-plans/master-plan-03.png";
 
-const AvalonMasterPlanImages = () => {
+const GreatAcresMasterPlanImages = () => {
   const images = [
-      { id: 1, imgName: Image1, alt: "", tag: "Master Plan" },
-      { id: 2, imgName: Image2, alt: "", tag: "Numbering Plan" }];
+      { id: 1, imgName: Image1, alt: "", tag: "Great Acres" },
+      { id: 2, imgName: Image2, alt: "", tag: "Master Plan 1" },
+      { id: 3, imgName: Image3, alt: "", tag: "Master Plan 2" },
+      { id: 4, imgName: Image4, alt: "", tag: "Master Plan 3" }
+    ];
   return (
     <div>
       <Container>
@@ -36,4 +41,4 @@ const AvalonMasterPlanImages = () => {
   );
 };
 
-export default AvalonMasterPlanImages;
+export default GreatAcresMasterPlanImages;

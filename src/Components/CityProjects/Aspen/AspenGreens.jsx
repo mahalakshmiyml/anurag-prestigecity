@@ -33,11 +33,7 @@ const AspenGreens = () => {
                         <td>20.3 Acres</td>
                       </tr>
                       <tr>
-                        <th>Total No. of Units</th>
-                        <td>2900 (including Phase - 1, 2 &3)</td>
-                      </tr>
-                      <tr>
-                        <th>No. of Units in Phase 1</th>
+                        <th>No. of Units</th>
                         <td>149</td>
                       </tr>
                       <tr>
