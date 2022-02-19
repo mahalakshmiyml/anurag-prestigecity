@@ -29,7 +29,7 @@ const TopHeader = () => {
             >
               <i className="fa fa-map-marker-alt"></i> Sarjapur Rd Bangalore.
             </Col>
-            <Col md={4} sm={5} className="align-self-center">
+            <Col md={4} xs={5} className="align-self-center">
               <div className="text-center">
                 <a
                   className="btn btn-dark"
@@ -40,13 +40,13 @@ const TopHeader = () => {
                 </a>
               </div>
             </Col>
-            <Col md={4} sm={7} className="align-self-center">
+            <Col md={4} xs={7} className="align-self-center">
               <div className="text-center">
                 <a
                   href="tel:+918095999000"
                   className="anchor btn btn-transparent fw-bold text-white m-1"
                 >
-                  <i className="fa fa-phone-volume"></i> +91-80959 99000
+                  +91-80959 99000
                 </a>
               </div>
             </Col>
@@ -62,10 +62,10 @@ const TopHeader = () => {
       >
         <Container>
           <Navbar.Brand href="/">
-            <Image src={Logo} className="img-fluid" alt="" />
+            <Image src={Logo} className="img-fluid" alt="" width="125" />
           </Navbar.Brand>
           <Nav.Link
-            className="btn-sm btn-danger text-white d-block d-md-none"
+            className="btn-sm btn-danger text-white d-block d-md-none px-3 border-0"
             href="tel:080959 99000 "
           >
             <i className="fa fa-phone-volume"></i> 80959 99000

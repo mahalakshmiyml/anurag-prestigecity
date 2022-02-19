@@ -31,8 +31,9 @@ const MeridianFloorplan = () => {
                         alt={item.alt}
                         className="img-fluid"
                       />
-                    </a><h6 className="text-center"> {item.tag} </h6>
+                    </a>
                   </div>
+                  <h6 className="text-center"> {item.tag} </h6>
                 </Col>
               ))}
             </Row>

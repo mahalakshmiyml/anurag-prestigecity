@@ -27,23 +27,34 @@ import About from "./Components/About";
 function App() {
   return (
     <>
-    <Router>
-      <TopHeader />
-      
-      <Routes>
-      <Route path="/" index element={<Home />}></Route>
-      <Route path="/city-projects/meridian/meridian-park" element={<MeridianPark />}></Route>
-      <Route path="/city-projects/eden/eden-park" element={<EdenPark />}></Route>
-      <Route path="/city-projects/avalon/avalon-park" element={<AvalonPark />}></Route>
-      <Route path="/city-projects/aspen/aspen-greens" element={<AspenGreens />}></Route>
-      <Route path="/city-projects/the-great/great-acres" element={<GreatAcres />}></Route>
+      <Router>
+        <TopHeader />
 
-
- 
+        <Routes>
+          <Route path="/" index element={<Home />}></Route>
+          <Route
+            path="/city-projects/meridian/meridian-park"
+            element={<MeridianPark />}
+          ></Route>
+          <Route
+            path="/city-projects/eden/eden-park"
+            element={<EdenPark />}
+          ></Route>
+          <Route
+            path="/city-projects/avalon/avalon-park"
+            element={<AvalonPark />}
+          ></Route>
+          <Route
+            path="/city-projects/aspen/aspen-greens"
+            element={<AspenGreens />}
+          ></Route>
+          <Route
+            path="/city-projects/the-great/great-acres"
+            element={<GreatAcres />}
+          ></Route>
         </Routes>
         <About />
         <Footer />
-    
       </Router>
     </>
   );

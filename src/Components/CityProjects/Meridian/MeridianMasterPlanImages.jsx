@@ -24,8 +24,8 @@ const MeridianMasterPlanImages = () => {
                         className="img-fluid"
                       />
                     </a>
-                    <h6 className="text-center"> {item.tag} </h6>
                   </div>
+                    <h6 className="text-center"> {item.tag} </h6>
                 </Col>
               ))}
             </Row>

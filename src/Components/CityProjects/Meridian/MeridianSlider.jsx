@@ -13,7 +13,6 @@ import ContactModal from "../../Includes/ContactModal";
 
 const MeridianSlider = () => {
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 

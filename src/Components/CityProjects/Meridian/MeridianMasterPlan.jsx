@@ -7,8 +7,6 @@ import MeridianMasterPlanImages from "./MeridianMasterPlanImages";
 const MeridianMasterPlan = () => {
     const [key, setKey] = useState("all")
 
-    
-
   return (
     <div>
     <div id="master-plan" className="pt-3 pb-3 pt-md-5 pb-md-5">
