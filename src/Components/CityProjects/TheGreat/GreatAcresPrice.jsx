@@ -30,8 +30,8 @@ const GreatAcresPrice = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>1 BHK </td>
-                  <td>650</td>
+                  <td>30 x 40 </td>
+                  <td>1200 </td>
                   <td>
                     <Button
                       variant="primary"
@@ -39,13 +39,13 @@ const GreatAcresPrice = () => {
                       onClick={handleShow}
                       className="my-3 custom-button"
                     >
-                      <i className="fa fa-spinner fa-flip fa-download"></i> Price Sheet
+                      <i className="fa fa-spinner fa-flip fa-download"></i> Sold Out
                     </Button>
                   </td>
                 </tr>
                 <tr>
-                  <td>2 BHK </td>
-                  <td>950</td>
+                  <td>40 x 40 </td>
+                  <td>1600 </td>
                   <td>
                     <Button
                       variant="primary"
@@ -53,7 +53,49 @@ const GreatAcresPrice = () => {
                       onClick={handleShow}
                       className="my-3 custom-button"
                     >
-                      <i className="fa fa-spinner fa-flip fa-download"></i> Price Sheet
+                      <i className="fa fa-spinner fa-flip fa-download"></i> Sold Out
+                    </Button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>60 x 50 </td>
+                  <td>3000 </td>
+                  <td>
+                    <Button
+                      variant="primary"
+                      size="sm"
+                      onClick={handleShow}
+                      className="my-3 custom-button"
+                    >
+                      <i className="fa fa-spinner fa-flip fa-download"></i> Price Breakup
+                    </Button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>40 x 70</td>
+                  <td>2800</td>
+                  <td>
+                    <Button
+                      variant="primary"
+                      size="sm"
+                      onClick={handleShow}
+                      className="my-3 custom-button"
+                    >
+                      <i className="fa fa-spinner fa-flip fa-download"></i>Price Breakup
+                    </Button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Odd Sizes</td>
+                  <td>On Request </td>
+                  <td>
+                    <Button
+                      variant="primary"
+                      size="sm"
+                      onClick={handleShow}
+                      className="my-3 custom-button"
+                    >
+                      <i className="fa fa-spinner fa-flip fa-download"></i>Price Breakup
                     </Button>
                   </td>
                 </tr>
